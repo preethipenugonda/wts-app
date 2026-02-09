@@ -7,7 +7,7 @@ pipeline {
                 echo 'Hello Gouthami! Jenkins pipeline is working 🎉'
                 echo 'welcome to jenkins pipline'
                 echo 'Hi i checking for commit event'
-                echo '  i   had your dinner' 
+                echo ' had your dinner' 
         
             }
         }
