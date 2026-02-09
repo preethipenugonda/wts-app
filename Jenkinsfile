@@ -12,9 +12,12 @@ pipeline {
         }
         stage('Terraform') {
             steps {
-                terraform init
-                terraform plan
                 
+                sh '''
+                  terraform init
+                  terraform plan
+                '''
+
             }
         }
     }
