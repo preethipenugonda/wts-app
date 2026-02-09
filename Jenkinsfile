@@ -5,6 +5,7 @@ pipeline {
         stage('Hello Stage') {
             steps {
                 echo 'Hello Gouthami! Jenkins pipeline is working 🎉'
+                echo 'welcome to jenkins pipline'
             }
         }
     }
