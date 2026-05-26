@@ -25,3 +25,9 @@ pipeline {
         }
     }
 }
+post {
+        success {
+            archiveArtifacts artifacts: '*.jar', followSymlinks: false
+        }
+    }
+}
